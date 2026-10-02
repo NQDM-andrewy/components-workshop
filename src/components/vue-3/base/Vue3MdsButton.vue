@@ -35,7 +35,7 @@ export default {
     href: String,
     leftIcon: String,
     rightIcon: String,
-    label: [String, Number],
+    label: String,
     large: Boolean,
     link: Boolean,
     loading: Boolean,

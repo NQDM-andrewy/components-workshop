@@ -130,7 +130,7 @@ export default {
     name: String,
     hint: String,
     errorMessage: String,
-    modelValue: [String, Number],
+    modelValue: String,
     prefix: [String, Number],
     returnObject: Boolean,
     suffix: [String, Number],
@@ -241,14 +241,14 @@ export default {
     align-items: center;
     gap: 5px;
     color: colours.$inputLabel;
-    font-family: var(--global-font), sans-serif;
-    font-size: var(--font-size-300);
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
     font-weight: 400;
     line-height: 140%;
     margin-bottom: 5px;
 
     .required-mark {
-      font-size: var(--font-size-200);
+      font-size: 14px;
     }
   }
   .v-autocomplete-container {
@@ -294,7 +294,7 @@ export default {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        right: var(--spacing-300);
+        right: 10px;
         cursor: pointer;
         width: 24px;
         height: 24px;
@@ -311,14 +311,14 @@ export default {
   }
   input, textarea {
     width: 100%;
-    font-size: var(--font-size-400);
+    font-size: 400;
     color: colours.$inputText;
-    padding: var(--spacing-200) var(--spacing-300);
+    padding: 5px 10px;
     border: colours.$inputBorder;
     border-radius: colours.$inputBorderRadius;
     transition: 0.15s;
     flex: 1;
-    font-family: var(--global-font), sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
     &[type="password"] {
       padding-right: 40px;
     }
@@ -441,8 +441,8 @@ export default {
   }
   .error-line {
     color: colours.$inputErrorColour;
-    font-family: var(--global-font), sans-serif;
-    font-size: var(--font-size-200);
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
     font-weight: 400;
     margin-top: 5px;
     opacity: 0;

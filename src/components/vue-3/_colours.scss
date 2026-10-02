@@ -1,0 +1,90 @@
+
+/*==== Colours ========================================*/
+$monoscale-80: rgba(255, 255, 255, 0.80);
+$monoscale-100: #FFFFFF;
+$monoscale-400: #CCCFD6;
+$monoscale-700: #333333;
+$monoscale-800: #181818;
+
+$global-black: #000000;
+$global-grey-3: #CCCFD6;
+$global-slate: #333333;
+
+$surfacesMain: #FFFFFF;
+$headline: #302F2F;
+$messagingInfo: #188AE2;
+$messagingFocus: #FFA200;
+$alertPrimaryText: #f44336;
+$globalAlert: #9D0D13;
+
+$semantic-info-border: #9393D2;
+$semantic-info-surface: #F3F3F8;
+$semantic-info-icon: #000089;
+
+$semantic-red-100: #EEDFE0;
+$semantic-red-300: #D29396;
+$semantic-red-700: #630404;
+
+$semantic-green-100: #F3FDE6;
+$semantic-green-300: #9DE98E;
+$semantic-green-700: #06554C;
+
+$primatives-blue-300: #9393D2;
+$primatives-grayscale-gray-200: #F2F2F3;
+
+// Form
+$borderForm: #E6E6E9;
+$inputLabel: #232323;
+$inputText: #302F2F;
+$inputPlaceholder: #595959;
+$inputBorder: 1px solid $borderForm;
+$inputBorderHover: #767676;
+$inputBorderRadius: 2px;
+$inputBackground: #fff;
+$inputErrorColour: #890000;
+$inputBorderInvalid: 2px solid $inputErrorColour;
+$inputTextFocus: #495057;
+
+$inputBorderDefault: #BBBBBB;
+$inputBorderFocus: 1px solid #80bdff;
+$inputBackgroundDisabled: #e9ecef;
+$inputPrefixText: #495057;
+$inputPrefixBackground: #e9ecef;
+$inputPrefixBorder: 1px solid #ced4da;
+$inputIconText: #6c757d;
+$inputIconBackground: #e9ecef;
+$inputLabelInvalid: #f44336; // MDC $red5;
+$inputTextInvalid: #f44336; // MDC $red5;
+$inputPlaceholderInvalid: #e57373; // MDC $red3
+$inputBackgroundInvalid: #ffebee; // MDC $red0;
+$inputBorderWarning: 1px solid #ffcc80; // MDC orange2
+$inputIconTextInvalid: #fff;
+$inputIconBackgroundInvalid: #f44336; // MDC $red5;
+
+// Select boxes
+$selectLabel: #232323;
+$selectText: #302F2F;
+$selectPlaceholder: #595959;
+$selectBorder: 1px solid $borderForm;
+$selectBorderRadius: 2px;
+$selectBackground: #fff;
+$selectIcon: $monoscale-800;
+
+$selectLabelDisabled: #757575;
+$selectLabelInvalid: #f44336;
+$selectTextFocus: #495057;
+$selectTextDisabled: #616161;
+$selectTextInvalid: #f44336;
+$selectPlaceholderInvalid: #e57373;
+$selectBackgroundDisabled: #e9ecef;
+$selectBackgroundInvalid: #ffebee; 
+$selectBorderFocus: 1px solid #FFA200;
+$selectBorderWarning: 1px solid #ffcc80; 
+$selectBorderInvalid: 1px solid #ef9a9a;
+$selectOptionHighlightedText: #fff;
+$selectOptionHighlightedBackground: #188ae2;
+$selectOptionSelectedBackground: #e3f2fd;
+$selectClearIconText: #6c757d;
+$selectClearIconTextInvalid: #fff;
+$selectClearIconBackground: #e9ecef;
+$selectClearIconBackgroundInvalid: #f44336; 
